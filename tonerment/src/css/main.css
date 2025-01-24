@@ -1,0 +1,58 @@
+#header {
+    width: full;
+    height: 7vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#register {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background: lightcoral;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+#register:hover {
+    background: #f08080bf;
+    color: white;
+}
+
+#login {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background: white;
+    border: 1px solid;
+    cursor: pointer;
+    color: lightcoral;
+    border-radius: 5px;
+}
+
+#login:hover {
+    background: #f0808040;
+    color: lightcoral;
+}
+
+#main {
+    width: full;
+    height: 93vh;
+    display: flex;
+}
+
+#left {
+    width: 50%;
+    height: 100%;
+    background: lightyellow;
+    align-content: center;
+    text-align: center;
+}
+
+#right {
+    width: 50%;
+    height: 100%;
+    background: lightgray;
+    align-content: center;
+    text-align: center;
+}
